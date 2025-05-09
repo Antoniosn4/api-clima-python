@@ -34,7 +34,7 @@ def main():
     """
     Função principal que executa a lógica do programa.
     """
-    api_key = "e3d4dcfd639306ff3ec2ee2cae04ee3c"  # Substitua pela sua chave do OpenWeather
+    api_key = "SUA API AQUI !" # Substitua pela sua chave do OpenWeather
     cidade = input("Digite o nome da cidade: ")
 
     dados = obter_dados_clima(cidade, api_key)
